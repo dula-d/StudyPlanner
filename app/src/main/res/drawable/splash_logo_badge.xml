@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Blue rounded app-icon background -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="28dp" />
+            <solid android:color="#0A66E8" />
+        </shape>
+    </item>
+
+    <!-- Study Planner logo on top -->
+    <item
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:left="20dp"
+        android:top="20dp"
+        android:right="20dp"
+        android:bottom="20dp" />
+
+</layer-list>

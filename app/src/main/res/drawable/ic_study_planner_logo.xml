@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+  <!-- Main blue circle -->
+  <path
+      android:fillColor="#314D89"
+      android:pathData="M54,6a48,48 0,1 0,0.1 0z" />
+
+  <!-- Soft highlight -->
+  <path
+      android:fillColor="#4F73C4"
+      android:fillAlpha="0.45"
+      android:pathData="M24,23c9,-10 47,-12 61,5c-12,9 -49,10 -61,-5z" />
+
+  <!-- Left book page -->
+  <path
+      android:fillColor="#F8FAFF"
+      android:pathData="M24,38c10,-4 20,-4 30,2v36c-10,-6 -20,-6 -30,-2z" />
+
+  <!-- Right book page -->
+  <path
+      android:fillColor="#F8FAFF"
+      android:pathData="M54,40c10,-6 20,-6 30,-2v36c-10,-4 -20,-4 -30,2z" />
+
+  <!-- Book centre line -->
+  <path
+      android:strokeColor="#D7E2FF"
+      android:strokeWidth="2"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M54,40v36" />
+
+  <!-- Left page lines -->
+  <path
+      android:strokeColor="#B8C7E8"
+      android:strokeWidth="1.6"
+      android:strokeLineCap="round"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M31,48h15M31,56h16M31,64h14" />
+
+  <!-- Right page lines -->
+  <path
+      android:strokeColor="#B8C7E8"
+      android:strokeWidth="1.6"
+      android:strokeLineCap="round"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M62,48h14M62,64h16" />
+
+  <!-- Check mark -->
+  <path
+      android:strokeColor="#F5C542"
+      android:strokeWidth="3"
+      android:strokeLineCap="round"
+      android:strokeLineJoin="round"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M63,56l6,6l13,-16" />
+
+  <!-- Small clock circle -->
+  <path
+      android:strokeColor="#DCE6FF"
+      android:strokeWidth="2"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M33,82a9,9 0,1 0,0.1 0z" />
+
+  <!-- Clock hands -->
+  <path
+      android:strokeColor="#DCE6FF"
+      android:strokeWidth="2"
+      android:strokeLineCap="round"
+      android:fillColor="@android:color/transparent"
+      android:pathData="M33,77v6l5,3" />
+
+  <!-- Pencil -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M69,78l5,-5l12,12l-5,5z" />
+
+  <path
+      android:fillColor="#F5C542"
+      android:pathData="M82,88l5,2l-2,-5z" />
+
+  <!-- Star -->
+  <path
+      android:fillColor="#F5C542"
+      android:pathData="M74,25l3,6l6,1l-5,4l1,6l-5,-3l-5,3l1,-6l-5,-4l6,-1z" />
+
+</vector>

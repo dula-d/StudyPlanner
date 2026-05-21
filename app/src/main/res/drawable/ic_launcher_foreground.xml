@@ -1,0 +1,96 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft progress arc -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#8FC2FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M32,37a31,31 0,0 1,44 0" />
+
+    <!-- Gold progress dot -->
+    <path
+        android:fillColor="#FFD05A"
+        android:pathData="M54,27a5,5 0,1 0,0.1 0z" />
+
+    <!-- Back book shadow -->
+    <path
+        android:fillColor="#73A9FF"
+        android:fillAlpha="0.45"
+        android:pathData="M22,44c9,-3 20,-3 32,5c12,-8 23,-8 32,-5v34c-10,-3 -20,-2 -32,6c-12,-8 -22,-9 -32,-6z" />
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,38c10,-3 19,-1 28,7v38c-9,-7 -18,-9 -28,-6z" />
+
+    <!-- Right page -->
+    <path
+        android:fillColor="#F4F8FF"
+        android:pathData="M54,45c9,-8 18,-10 28,-7v39c-10,-3 -19,-1 -28,6z" />
+
+    <!-- Book centre fold -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#D7E6FF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M54,45v38" />
+
+    <!-- Left page lines -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#9BBDF0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M34,56h13M34,64h14M34,72h12" />
+
+    <!-- Smaller gold check mark -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFD05A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,50l6,6l11,-15" />
+
+    <!-- Calendar box -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#0A66E8"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:pathData="M63,52h15v15h-15z" />
+
+    <!-- Calendar rings -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#0A66E8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M67,49v6M74,49v6" />
+
+    <!-- Calendar highlight -->
+    <path
+        android:fillColor="#FFD05A"
+        android:pathData="M72,61h4v4h-4z" />
+
+    <!-- Right page list dots -->
+    <path
+        android:fillColor="#0A66E8"
+        android:pathData="M63,73a2.2,2.2 0,1 0,0.1 0z" />
+
+    <path
+        android:fillColor="#0A66E8"
+        android:pathData="M63,80a2.2,2.2 0,1 0,0.1 0z" />
+
+    <!-- Bookmark -->
+    <path
+        android:fillColor="#FFD05A"
+        android:pathData="M64,75h9v18l-4.5,-4l-4.5,4z" />
+
+</vector>
