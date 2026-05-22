@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.size
@@ -28,6 +29,7 @@ import com.example.studyplanner.R
 fun SplashScreen() {
     Box(
         modifier = Modifier
+            .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
             .statusBarsPadding()
             .navigationBarsPadding(),
@@ -43,13 +45,18 @@ fun SplashScreen() {
                 color = MaterialTheme.colorScheme.primary,
                 shadowElevation = 6.dp
             ) {
-                Image(
-                    painter = painterResource(id = R.drawable.ic_launcher_foreground),
-                    contentDescription = "Study Planner logo",
-                    modifier = Modifier
-                        .size(86.dp)
-                        .clip(RoundedCornerShape(24.dp))
-                )
+                Box(
+                    modifier = Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_study_planner_logo),
+                        contentDescription = "Study Planner logo",
+                        modifier = Modifier
+                            .size(86.dp)
+                            .clip(RoundedCornerShape(24.dp))
+                    )
+                }
             }
 
             Spacer(modifier = Modifier.height(30.dp))
